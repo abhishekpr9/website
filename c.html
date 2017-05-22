@@ -1,0 +1,402 @@
+<html>
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Search engines can pick up this description to 
+  show with the results of searches.-->
+ 
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" >
+
+
+
+<!-- fontawsome-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
+  
+  <link rel="stylesheet" type="text/css" href="/project/style.css">
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("#header_file").load("head1.html"); 
+ $("#footer").load("footer.html"); 
+});
+
+</script>
+	
+	
+	<script>
+	  $(document).ready(function() {
+    $('#contact_form').bootstrapValidator({
+        // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            first_name: {
+                validators: {
+                        stringLength: {
+                        min: 2,
+                    },
+                        notEmpty: {
+                        message: 'Please enter your first name'
+                    }
+                }
+            },
+             last_name: {
+                validators: {
+                     stringLength: {
+                        min: 2,
+                    },
+                    notEmpty: {
+                        message: 'Please enter your last name'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Please enter your email address'
+                    },
+                    emailAddress: {
+                        message: 'Please enter a valid email address'
+                    }
+                }
+            },
+            phone: {
+                validators: {
+	                 /* notEmpty: {
+                        message: 'Please supply your phone number'
+                    },*/
+                  
+					 stringLength: {
+                        max: 10,
+                    }
+                     
+               
+            }
+			},
+            address: {
+                validators: {
+                     stringLength: {
+                        min: 8,
+                    },
+                    /*notEmpty: {
+                        message: 'Please enter your street address'
+                    }*/
+                }
+            },
+            city: {
+                validators: {
+                     stringLength: {
+                        min: 4,
+                    },
+                   /* notEmpty: {
+                        message: 'Please enter your city'
+                    }*/
+                }
+            },
+            state: {
+                validators: {
+                    /*notEmpty: {
+                        message: 'Please enter your state'
+                    }*/
+                }
+            },
+		
+            comment: {
+                validators: {
+                      stringLength: {
+                        min: 10,
+                        max: 200,
+                        message:'Please enter at least 10 characters and no more than 200'
+                    },
+                   notEmpty: {
+                        message: 'Please enter a description of your project'
+                    }
+                    }
+                }
+            }
+        })
+      /* .on('success.form.bv', function(e) {
+            $('#success_message').slideDown({ opacity: "show" }, "slow") // Do something ...
+                $('#contact_form').data('bootstrapValidator').resetForm();
+
+            // Prevent form submission
+            e.preventDefault();
+
+            // Get the form instance
+            var $form = $(e.target);
+
+            // Get the BootstrapValidator instance
+            var bv = $form.data('bootstrapValidator');
+           // Use Ajax to submit form data
+            $.post($form.attr('action'), $form.serialize(), function(result) {
+                console.log(result);
+            }, 'json');
+        });*/
+		
+	
+});
+
+
+	</script>
+	 
+  <style>
+	#success_message  
+	{ display: none;}
+	</style>
+  
+
+
+  </head>
+
+<body>
+	 
+	 
+ <?php include('/project/database.php') ?>
+	 
+	 
+	 
+	 
+  <div id="header_file"></div>
+	<!--jumbotron-->
+	
+	
+  <!-- <div class="jumbotron text-center" id="jumbo_img">
+    <h1>CONTACT US <h1> 
+  </div -->
+  
+ <div class ="container">
+		  
+     <div class="page-header" id="contact"><br><br><br>
+         <h2>CONTACT INFORMATION</h2>
+		 <p>                                                                                                                
+		S-CUBE welcomes your questions or comments. You can send any questions about any detailed 
+		information about the products, the company or requesting information about anything. If you have any 
+		comments about the website itself or requests to adjust errors, please write to us.</p>
+      </div><!--end page header-->
+		
+		<div class="row">
+		  <div class ="col-lg-4" style="background-color:#BEC3C4; border-radius:10px">
+		
+			<address>
+			<br><br>
+			<strong> Satyam Software Solutions Pvt Ltd.</strong></br><br>
+			
+			A/189 ,Sector-63</br>
+		
+			Noida - 201301<br>
+			Uttar Pradesh. (INDIA).,</br><br>
+			
+			<strong>Telephone</strong>       +91-120-4233834/35<br>
+			<strong>Fax  </strong>                  +91-120-4233836<br>
+			
+			<strong>Email </strong>                info@s-cubetech.com<br>
+			<br><br>
+			</address>
+	
+
+
+
+		  </div>
+		
+		 <div class ="col-lg-8">
+<form class="well form-horizontal" action="database.php " method="post"  id="contact_form">
+<fieldset>
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group" >
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Phone</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="Phone number" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+      
+<div class="form-group" >
+  <label class="col-md-4 control-label">Address</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="Address" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+ 
+<div class="form-group">
+  <label class="col-md-4 control-label">City</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="city" placeholder="city" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+   
+<div class="form-group" > 
+  <label class="col-md-4 control-label">State</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >state</option>
+      <option>Andra Pradesh</option>
+      <option>Arunachal Pradesh</option>
+      <option >Assam</option>
+      <option >Bihar</option>
+      <option >Chhattisgarh</option>
+      <option >Goa</option>
+      <option >Gujarat</option>
+      <option >Haryana</option>
+      <option >Himachal Pradesh</option>
+      <option> Jammu and Kashmir</option>
+      <option >Jharkhand</option>
+      <option >Karnataka</option>
+      <option >Kerala</option>
+      <option >Madhya Pradesh</option>
+      <option >Maharashtra</option>
+      <option >Manipur</option>
+      <option> Meghalaya</option>
+      <option >Mizoram</option>
+      <option >Nagaland</option>
+      <option>Orissa</option>
+      <option >Punjab</option>
+      <option> Rajasthan</option>
+      <option >Sikkim</option>
+      <option >Tamil Nadu</option>
+      <option>Tripura</option>
+      <option>Uttaranchal</option>
+      <option>Uttar Pradesh</option>
+      <option>West Bengal</option>
+      <option>Andaman and Nicobar Islands</option>
+      <option>Chandigarh</option>
+      <option>Dadar and Nagar Haveli</option>
+      <option>Daman and Diu</option>
+      <option>Delhi</option>
+      <option>Lakshadeep</option>
+      <option>Pondicherry</option>
+     
+    </select>
+  </div>
+</div>
+</div>
+
+
+
+
+<!-- Text area -->
+  
+<div class="form-group" >
+  <label class="col-md-4 control-label">Message</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder="Write your message"></textarea>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- Button -->
+<div class="form-group" >
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" name="send" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" > <span class="glyphicon glyphicon-send"></span>  Send    <span class="caret"></span></button>
+	
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">delhi</a></li>
+    <li><a href="#">noida</a></li>
+  </ul>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</div>
+</div>
+
+    </div><!-- /.container -->
+	
+	
+	
+	
+	
+	
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3080570912225!2d77.36905071866343!3d28.620527984232748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff5e04f46f3%3A0x50ad46d627db633!2sA-189%2C+A+Block%2C+Sector+63%2C+Noida%2C+Uttar+Pradesh+201301!5e0!3m2!1sen!2sin!4v1466703590839" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen ></iframe>
+	
+	
+	
+	
+	
+	
+	 <div id="footer"></div>
+	
+	
+	
+	 <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+ 
+ </body>
+
+</html>

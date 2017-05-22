@@ -1,0 +1,1299 @@
+<style>
+
+/*-----------START OF FINAL.HTML-----------*/
+/*body of the page  */
+	body
+	{
+		
+		 line-height: 1.8;
+		font-family: 'Open Sans Condensed', sans-serif;
+		background-color:#fff;
+	
+}
+
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+
+
+/* for services heading 
+
+@media (max-width: 599px) {
+  .desc{
+    width: 100%;
+  }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Mobiles in portrait mode 
+   @media only screen and (max-width: 320px) {
+  
+   img{
+        width: auto;
+		height:auto;
+    }
+   }
+   Mobiles in landscape mode 
+ @media only screen and (min-width:321px)
+ and(max-width: 480px) {
+ 
+   img {
+        width: auto;
+		height:auto;
+    }
+   }
+    Tablets 
+ @media only screen and (min-width:768px)
+ and (max-width: 1024px) {
+
+ img {
+        width: auto;
+		height:auto;
+    }
+   }
+    Desktops and laptop computers 
+ @media only screen and (min-width: 1224px) {
+
+  img {
+        width: 100%;
+		height:auto;
+    }
+   }
+    For very large devices 
+ @media only screen and (min-width: 1824px) {
+    
+  img {
+        width: 100%;
+		height:auto;
+    }
+   } */
+
+	
+/*for all the haedings of layout*/
+	 .header h2 
+	 {
+      font-size: 30px;
+      text-transform: uppercase;
+      color: black;
+      margin-bottom: 30px;
+	  text-decoration:none;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 500; 
+      line-height: 64px; 
+      margin: 0 0 0;
+      /*padding-top:20px;*/
+      
+	}
+ 
+ 
+ /*Logo in services section*/ 
+ 
+	.logo-small {
+    color: #052A5C;
+    font-size: 100px;
+	}
+
+	
+/*Logo of about us*/
+	.logo {
+    color:#0C6C9C;
+    font-size: 200px;
+	}
+	
+	
+/*navbar*/	
+	.navbar-brand>img
+	{
+   
+    position: absolute;
+    margin-left:0px;
+	width: 269px;
+    height: 82px;
+    margin-top: -6px;
+	}
+  
+	.navbar {
+      margin-bottom: 0;
+      background:#fff;
+      z-index: 9999;
+      border: 0;
+	  text-align:right;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+	  
+		  height:100px;
+	}
+	
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+
+	    margin-top: 42px;
+    font-size: larger;
+}
+	.navbar li a
+	{
+      color: black !important;
+	    
+    border-radius:0;
+
+	}
+
+	.navbar 
+	{
+      color: black !important;
+	    
+    border-radius:0;
+   
+	}
+	
+	.navbar-nav li a:hover,.navbar-nav li.active a 
+	{
+      color: #f4511e !important;
+      background-color: #fff !important;
+		transition: box-shadow 0.5s; 
+	     box-shadow: 5px 0px 40px rgba(0,0,0, 3); 
+	    box-shadow: 0 9px 10px -6px black;  
+	 
+	  
+	}
+	
+	.navbar-default .navbar-toggle 
+	{
+    /*   border-color: transparent; */
+      color: black !important;
+	        border-color: white;
+			
+		
+	}
+  
+   /* for background of Tech and R&D */
+/* 
+#research{
+	 background: #242323; /* For browsers that do not support gradients *
+    background: -webkit-linear-gradient(left top, #242323,#595757 ); /* For Safari 5.1 to 6.0 *
+    background: -o-linear-gradient(bottom right, #242323, #595757 ); /* For Opera 11.1 to 12.0 *
+    background: -moz-linear-gradient(bottom right, #242323, #595757 ); /* For Firefox 3.6 to 15 *
+    background: linear-gradient(to bottom right,#242323, #595757 ); /* Standard syntax (must be last) *
+	
+} */
+	#about h2 {
+		color:#fff;
+	}
+		#about p {
+		color:#fff;
+	}
+/* for services */
+		#services h2
+	{
+color:white;
+	}
+	
+	#products p{
+			text-align:justify;
+	}
+	#products
+	{
+	text-align:justify;
+    background: #242323; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #242323,#595757 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #242323, #595757 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #242323, #595757 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#242323, #595757 ); /* Standard syntax (must be last) */ 
+	}
+	
+	
+	#focus_area
+	{
+	 padding:30px;
+	text-align:justify;	 
+	/* background-color:##707070; */
+height: 620px; 
+	
+	
+background: #242323; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #242323,#595757 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #242323, #595757 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #242323, #595757 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,#242323, #595757 ); /* Standard syntax (must be last) */ 
+
+	}
+	/* for carousel indicators in focus area */
+	#ind {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+	#focus_area h2
+	{
+	color:#fff;	 
+	}
+	#focus_area h3
+	{
+	color:#fff;	 
+	}
+	#focus_area p
+	{
+		color:#fff; 
+		
+	}
+	#focus_area ul
+	{
+		color:#fff; 
+	}
+
+	
+	#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: 200px;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+
+	
+	#products h2
+	{
+	 color:white;
+	}
+	
+	#products p
+	{
+	color:white;
+	}
+	
+	 
+	.caption.btn 
+	{
+    margin: 20px;
+    background-color: #f4511e;
+    color: #fff;
+	}
+	
+	.caption .btn:hover
+	{
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+	} 
+/*---------END OF FINAL.HTML-----------*/
+
+
+/*-------jumbotron of every page--------*/
+
+  #jumbo_img h1 
+  { 
+  color: #111;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px; 
+  font-weight: 500; 
+  line-height: 64px; 
+  margin: 0 0 0;
+  padding:20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  }
+  
+   #jumbo_img
+	{
+    margin-bottom: 0px;
+    background-image: url(/project/img/bld.jpg);
+    background-position: 2% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    padding-top: 230px;
+    padding-bottom: 30px;
+	}
+/*------------END OF JUMBOTRON----------*/
+
+/*------------SERVICES<CONSULTING-------*/
+/*--------To give color to heading------*/
+	#h1 h1{
+	color: #40B1D6;
+	}
+
+	#h2 h1{
+	color: #45D613;
+	}
+
+	#h3 h1{
+	
+	color: black;
+	
+	}
+
+	#h4 h1 {
+	
+	color: #F56942;
+	
+	}
+	
+	#h6 h1{
+	
+	color: #B098EB;
+	
+	}
+/*--------To give color to line 1------*/
+	#h1 h3{
+	color: #40B1D6;
+	}
+
+	#h2 h3{
+	color: #45D613;
+	}
+
+	#h3 h3{
+	
+	color: black;
+	
+	}
+
+	#h4 h3 {
+	
+	color: #F56942;
+	
+	}
+
+	#h6 h3 {
+	
+	color: #B098EB;
+	
+	}
+
+
+/*---------to give styling to pannels-------*/
+
+	.panel {
+    
+    border-radius:0;
+    transition: box-shadow 0.5s;
+	}
+
+	.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, 1);
+	}
+
+/* .panel-body .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+} */
+
+.panel-heading {
+    color: #fff !important;
+
+    padding: 15px;
+    border-bottom: 1px solid transparent;
+  /*   border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;*/
+} 
+
+.panel-body.btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+.panel-body {
+    padding: 15px;
+   
+}
+    /* for shadow effect in services */
+	#cons {
+    
+    border-radius:0;
+    transition: box-shadow 0.5s;
+	}
+
+	
+
+	#cons:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, 3);
+	}
+
+	  /* for shadow effect in services 
+	#myNavbar {
+    
+    border-radius:0;
+    transition: box-shadow 0.5s;
+	}
+
+	
+
+	#myNavbar:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, 3);
+	}
+	 
+	
+
+
+
+/*----------For Embedded products---------*/
+#develop h1 {
+    font-size: 111px;
+    font-weight: bolder;
+    
+
+    margin-top: -11px;
+}
+#develop h2 {
+   
+    font-weight: bold;
+  
+    margin-top: 9px;
+    margin-left: -3px;
+}
+
+/* For Slideanim effect */
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+/*----Submit Button--*/
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/*----footer----*/
+#footer p{
+	color:grey;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #0C6C9C;
+}
+#footer h1{
+	color:grey;
+	font-size:56px;
+}
+
+
+#top {
+     background-image: url("/project/img/bld.jpg"); 
+    /*max-height: 500px;*/
+    max-width: 1423px;
+	min-height:680px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+
+}
+
+
+#middle {
+    background-image: url("/project/img/moving.jpg"); 
+    /*max-height: 500px;*/
+    max-width: 1423px;
+	  background-blend-mode:lighten;
+  background-color: rgba(91, 192, 222, 0.62);
+	min-height:680px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+
+}
+
+#bottom {
+     background-image: url("/project/img/back.jpg"); 
+    /*max-height: 500px;*/
+    max-width: 1423px;
+	min-height:680px;
+		  background-blend-mode:hard-light;
+  background-color: rgba(255, 255, 255, 0.45);
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+
+}
+
+#down{
+
+    background: url(/project/img/conf.jpg) ;
+	 background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*opacity:0.6;
+	 filter: gray;
+	 -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);*/
+  contrast {-webkit-filter: contrast(180%);filter: contrast(180%);}
+  filter: grayscale(100%);
+  filter: url(#greyscale);
+  filter: gray;
+   min-height: 300px;
+	  max-width: 1423px;
+}
+
+
+
+
+
+/*---------for technology and R&D-------*/
+div.polaroid {
+    width: 29%;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 29px;
+    pading: 30px;
+    /* padding: 30px; */
+    margin-top: 69px;
+    margin-left: 194px;
+
+  
+}
+div.container {
+  text-align: left;
+  padding: 10px 20px;
+
+ 
+}
+#img1{
+	transition: all .2s ease-in-out;
+}
+#img1:hover { transform: scale(1.1); }
+
+#img2{
+	transition: all .2s ease-in-out;
+}
+#img2:hover { transform: scale(1.1); }
+
+
+/*------for services------*/
+#cons{
+	transition: all .2s ease-in-out;
+}
+#cons:hover { transform: scale(1.1); }
+#hd{
+	transition: all .2s ease-in-out;
+}
+#hd:hover { transform: scale(1.1); }
+}
+
+
+/* #services{
+    margin-top: 50px;
+    box-shadow: 0 0 30px black;
+    padding:0 200px 0 200px;
+}
+ */
+#subheading h4{
+color:#5AB3D1;	
+}
+
+ 
+
+/* .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+
+}
+
+        
+        .hero {
+            position: absolute;
+           top: 50%;
+            left: 50%;
+            z-index: 3;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            -moz-transform: translate3d(-50%, -50%, 0);
+            -ms-transform: translate3d(-50%, -50%, 0);
+            -o-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+        }
+        
+        .hero h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+			margin-top: -188px;
+
+
+
+        }
+        
+       .fade-carousel .carousel-inner .item .hero {
+            opacity: 0;
+            -webkit-transition: 2s all ease-in-out .1s;
+            -moz-transition: 2s all ease-in-out .1s;
+            -ms-transition: 2s all ease-in-out .1s;
+            -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+        }
+        
+        .fade-carousel .carousel-inner .item.active .hero {
+            opacity: 1;
+            -webkit-transition: 2s all ease-in-out .1s;
+            -moz-transition: 2s all ease-in-out .1s;
+            -ms-transition: 2s all ease-in-out .1s;
+            -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+        }
+        
+     
+        .btn.btn-lg {
+            padding: 10px 40px;
+        }
+        
+        .btn.btn-hero,
+        .btn.btn-hero:hover,
+        .btn.btn-hero:focus {
+            color: #f5f5f5;
+            background-color: #1abc9c;
+            border-color: #1abc9c;
+            outline: none;
+            margin: 20px auto;
+        }
+    */
+/* To add Page loader 
+   
+  body {
+  background: #ecf0f1;
+}
+
+.loader {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader:after {
+  position: absolute;
+  content: "Loading";
+  bottom: -40px;
+  left: -2px;
+  text-transform: uppercase;
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.loader > .line {
+  background-color: #333;
+  width: 6px;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  
+  animation: stretch 1.2s infinite ease-in-out;
+}
+
+.line.one {
+  background-color: #2ecc71; 
+}
+
+.line.two {
+  animation-delay:  -1.1s;
+  background-color:#3498db;
+}
+.line.three {
+  animation-delay:  -1.0s;
+  background-color:#9b59b6;
+}
+.line.four {
+  animation-delay:  -0.9s;
+   background-color: #e67e22;
+}
+.line.five {
+  animation-delay:  -0.8s;
+  background-color: #e74c3c;
+}
+
+@keyframes stretch {
+  0%, 40%, 100% { transform: scaleY(0.4); }
+  20% {transform: scaleY(1.0);}
+}
+
+*/
+
+#auto {
+      
+/*     padding: 35px 30px; */
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+	    
+	}
+
+	#auto:hover {
+     box-shadow: 5px 0px 40px rgba(0,0,0, 0.5);
+
+
+	}
+	
+	
+	
+	/* for automation page */
+
+#auto1 {
+        background: #DEDCDC;
+    padding: 35px 30px; 
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius:0;
+    transition: box-shadow 0.5s;
+	    
+	}
+
+	#auto1:hover {
+     box-shadow: 5px 0px 40px rgba(0,0,0, 0.5);
+
+	    background-color: #3E606F
+	}
+	
+	
+	 #automation_icon{{
+  transform-origin: right 50%;
+  transform: rotateY(-120deg);
+}
+{
+  transform-origin: right 50%;
+  transform: rotateY(-120deg);
+}
+
+		height: 150px;
+    width: 150px;
+    max-width: 100%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -o-border-radius: 50;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 25px;
+	} 
+
+#metro h1{
+	color:#fff;
+	text-align:center;
+	font-size: 71px;
+}
+#metro h2{
+	color:#fff;
+		text-align:center;
+		font-size: 40px;
+}
+
+/* 
+			body.loaded {
+  opacity: 1;
+  transition: 1s opacity;
+} */
+
+/* access heading */
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  padding: 0 5%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  max-width: 1423px;
+	min-height:680px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+
+.banner .background {
+ width: 100%;
+  height: 100%;  
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transform: translate3d(0,0,0) scale(1.25);
+ background: black url(/project/img/bld.jpg) no-repeat center center; 
+background-size: cover;
+
+
+}
+
+
+.loaded .banner .background {
+  transform: scale(1);
+  transition: 6.5s transform;
+      height: 1035px;
+}
+
+/* For Download pdf */
+
+#block {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 13.5px;
+    font-weight: 700;
+    border-left: 5px solid #119139;
+}
+
+
+
+	
+/* for technolog and R&D */
+.overlay{
+
+   /* background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png); */
+     background:url('/project/img/t.jpeg');
+ 
+  -webkit-animation:100s scroll infinite linear;
+  -moz-animation:100s scroll infinite linear;
+  -o-animation:100s scroll infinite linear;
+  -ms-animation:100s scroll infinite linear;
+  animation:100s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:74%;
+}
+
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+
+	</style>
+	

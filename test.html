@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>S-CUBE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Search engines can pick up this description to 
+  show with the results of searches.-->
+ 
+ 
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" >
+
+<!-- Css of Technology -->
+  <link rel="stylesheet" type="text/css" href="/project/technology.css">
+<!-- fontawsome-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
+
+  
+  <!---for including CSS file-->
+  <link rel="stylesheet" type="text/css" href="/project/style.css">
+		
+	  <!---for including CSS file of service-->
+  <link rel="stylesheet" type="text/css" href="/project/service.css">	
+		  <!---for including CSS file of product--->
+  <link rel="stylesheet" type="text/css" href="/project/product.css">
+		
+	 <!---for including CSS file of focus area-->
+  <link rel="stylesheet" type="text/css" href="/project/focus_area.css">
+  	 <!---for including CSS file of hw-->
+  <link rel="stylesheet" type="text/css" href="/project/matrial.css">
+  
+   <!---for including CSS file of footer-->
+    <link rel="stylesheet" type="text/css" href="/project/social.css">
+	
+	 
+  
+<!-- using for including head file-->	
+ 	<script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+	
+	<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+<!-- technology and research&development-->
+<style>
+
+.caption {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+	font-weight: 700;
+    font-size: 56px;
+	margin-right: 609px;
+    margin-top: 243px;
+	color:white;
+    background-color: transparent;
+	padding:15px;
+	float:left;
+	opacity:0px;
+}
+
+</style>
+<!-- styling of about of front page -->
+<style>
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid black;
+  border-right: 0 solid black;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+#font {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 14px;
+    
+}
+
+</style> 
+
+ 
+	 </head>
+  
+
+
+   <body id="myPage"  data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+
+
+<!-- <div id="header_file"></div> -->
+   <!--navbar-->
+  <nav class=" navbar navbar-default  navbar-fixed-top" id="header_file"  role = "navigation">
+    <div class="navbar-header text-right">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+      
+	   <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		
+      </button>
+  <a class="navbar-brand" href="/project/test.html"><img src="\project\img\logo.jpg" class="img-responsive "alt="SCUBE"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+	  
+	  <li ><a href="/project/test.html"><strong>HOME</strong ></a></li>
+	<!--<li> <a href="#focus_area" href="/project/test.html#focus_area" target=".navbar">FOCUS AREA</a></li> -->
+        <li><a href="#focus_area"><strong>FOCUS AREAS</strong></a></li> 
+         <li><a href="#services"><strong>SERVICES</strong></a></li> 
+	     <li><a href="#products"><strong>PRODUCTS</strong></a></li>
+		  <li><a href="#about"><strong>ABOUT</strong> </a></li>
+	    <li><a href="/project/c.html"><strong>CONTACT US</strong></a></li>
+
+      </ul>
+	
+	
+  </div>
+ 
+</nav><!-- end navbar-->
+
+<!-- smooth scrolling of the front page -->
+ <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+
+
+
+
+
+
+</script>
+ 
+
+ <!-- heading on the picture -->
+ 
+  <!--jumbotron-->
+		<header class="banner">
+		<span class="background"></span>
+		<div     class="img-responsive">
+
+
+
+
+ <div class="caption text-center slideanim">
+   
+     <div class="mask">  
+	 
+        <p>A Leading Global Provider</p>  
+     <h1> of innovative solutions</h1>  
+     </div>  
+
+
+	 	
+      
+        </div> 
+
+</div>
+</header>
+
+
+
+
+<!--about focus areas-->
+
+<div class="container-fluid parallax" id="focus_area" >
+  <!-- Page Content -->
+        <br><br><br>
+        <h1 class="thick-heading slideanim" style="color:#fff;text-align:center;">
+      FOCUS AREA
+      </h1>
+
+        <!-- First Featurette -->
+
+            <!------------------------code---------------start---------------->
+			
+            <div class="row slideanim">
+			<div class="col-xs-1">
+			</div>
+			
+                <div class="col-sm-10 slideanim" data-wow-delay="0.2s">
+				<br>
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Bottom Carousel Indicators -->
+                        <ol class="carousel-indicators" >
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="/project/img/chip3.jpg" alt="focus area"  id="ind">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="/project/img/CRT.jpg" alt="focus area"   id="ind">
+                            </li>
+                            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="/project/img/flap.jpg" alt="access automation" id="ind">
+                            </li>
+							 <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="/project/img/AUTO.jpg" alt="focus area"  id="ind">
+                            </li>
+							
+                        </ol>
+
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner text-center">
+							
+                            <!-- Quote 1 -->
+                            <div class="item active">
+                              
+                                    <div class="row ">
+                                        <div class="col-sm-8 col-sm-offset-2 ">
+											<h2>Industrial Automation & Control System</h2>
+                                            <p>
+	Our Advance Process Control solution is highly flexible and configurable and covers a wide range of industrial automation, 
+	visualization and process control system. Our Automation Solutions focus on process automation, HMI design, Industrial automation
+	integration, control system design and migration. We also provide software solutions for different components like PLC, SCADA and
+	HMI of Industrial Control System.</p>
+                                            
+                                        </div>
+                                    </div>
+
+                            </div>
+                            <!-- Quote 2 -->
+                            <div class="item">
+                            
+                                    <div class="row ">
+                                        <div class="col-sm-8 col-sm-offset-2">
+											<h2>Automatic Fare Collection</h2>
+                                            <p>
+  Provide a comprehensive solution in design, development , manufacturing, consultancy and integration of different AFC equipments. 
+
+
+  </p>
+                                        </div>
+                                    </div>
+                             
+                            </div>
+                            <!-- Quote 3 -->
+                            <div class="item">
+                              
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+											<h2>Access Automation</h2>
+                                                <p>
+  We provide one stop solution for automatic access and identification. 
+  Our expertise spans across vehicle access system for parking and toll application 
+  and pedestrian access for boarding and fare gates. Our Secure entry gates provide 
+  biometric (like finger printing, vein scanning)  and RFID technology for auto identification and access control.
+  </p>
+  
+
+ 
+                                        </div>
+                                    </div>
+                              
+                            </div>
+							                            <!-- Quote 4 -->
+                            <div class="item">
+                            
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+											<h2>Remote Monitoring & Control System</h2>
+                                            <p>		
+            Satyam Software Solutions offers complete edge-to-edge industrial Ethernet solution with ideal network response time
+			and impressive network resilience, security, and reliability to industrial networking infrastructures.
+			We provide consultancy on Industry Ethernet and contract manufacturing of industrial Ethernet Switches,
+			Serial Device servers and remote terminal units for remote monitoring and Industrial Control Systems.
+
+			Provide a comprehensive solution in design, development , manufacturing and integration of different RMCS end equipments. 
+		
+  </p><br>
+                                        </div>
+                              
+                            </div>
+                        </div>
+
+                        <!-- Carousel Buttons Next/Prev -->
+                        <a data-slide="prev" href="#quote-carousel" class="left carousel-control" style=" margin-top: 90px"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"style=" margin-top: 90px"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+          <div class="col-xs-1">
+			</div>
+        </div>
+		</div>
+	    
+    
+      
+<!-- End of focus area -->
+
+
+
+<!-- services--->
+<div class="parallax" id="bottom"> 
+<div class="container-fluid" id="services">
+  <div class="row">
+   <div class="col-xs-1">
+  </div>
+  <div class="col-sm-10 slideanim">
+ <div class="header slideanim text-center" style="color:white"><br><br><br><br><h2>SERVICES</h2>
+       
+      <p>  
+	  We work closely with our clients to empower their people, processes, systems, technology, and strategy through our services.
+	  With focused service practice groups, we help create powerful solutions for organizations worldwide.
+	
+	     </p>
+ 
+
+ 
+ </div>
+
+  
+  <div id="content">
+    <div class="wrapper preload" style="    height: 460px;" >
+	
+	
+	
+	  <section class="grid-unit top-left" >
+    <div class="swing-panel">
+      <span class="desc">We offer comprehensive solution from conception,construction to product realization <br>
+	  	    <a href="\project\design.html"<button type="button" class="btn btn-default btn-md" style="color:Blue">READ MORE</button> </a>
+	  </span>
+    </div>
+    <div class="sphere" ></div>
+<i class="fa fa-mobile fa-3x icon  " aria-hidden="true"></i>
+    <span class="label">Product Design & Development</span>
+  </section>
+	
+
+  
+  
+  <section class="grid-unit top-right" >
+    <div class="swing-panel">
+      <span class="desc">We manufacture electronic product for companies in various industries<br>
+	
+	    <a href="\project\electronic_manufacturing.html"<button type="button" class="btn btn-default btn-md" style="color:Blue";"padding:0px;">READ MORE</button> </a>
+	  </span>
+	
+    </div>
+        <div class="sphere"></div>
+  <i class="fa fa-briefcase fa-2x icon" aria-hidden="true"></i>
+    <span class="label">Electronic Manufacturing  <br>
+
+	</span>
+	
+  </section>
+  
+  
+  <section class="grid-unit bottom-left">
+    <div class="swing-panel">
+      <span class="desc">We believe in free open source software and open standards in product development<br>
+	  
+	   <a href="\project\open_source.html"<button type="button" class="btn btn-default btn-md" style="color:Blue">READ MORE</button> </a>
+	  </span>
+    </div>
+        <div class="sphere"></div>
+<i class="fa fa-lock fa-2x icon" aria-hidden="true"></i>
+    <span class="label">Open Source & Open Products</span>
+  </section>
+  
+  
+  <section class="grid-unit bottom-right">
+    <div class="swing-panel">
+      <span class="desc">Prototyping or model making is one of the important steps to finalize a product <br>
+	  
+	   <a href="\project\rapid_prototyping.html"<button type="button" class="btn btn-default btn-md" style="color:Blue">READ MORE</button> </a>
+	  
+	  </span>
+    </div>
+        <div class="sphere"></div>
+<i class="fa fa-cogs fa-2x icon" aria-hidden="true"></i>
+    <span class="label">Rapid Prototyping</span>
+  </section>
+  
+
+
+  </div>
+   
+   </div>
+   
+   </div>
+  <div class="col-xs-1">
+  </div> 
+
+  </div>
+     <br>
+  </div>
+
+  </div>  
+  <!-- end of services -->
+  
+  
+  
+
+<!--products-->
+
+
+<div class ="container-fluid " id="products" style="background-color:rgb(40, 50, 78); color:#fff";>
+
+  <div class="row slideanim">
+   <div class="col-sm-1">
+  </div>
+    <div class="col-sm-10">
+      <div class="header slideanim text-center" ><br><br><br><br><h2>PRODUCTS</h2>
+      
+      <p>  
+Satyam Software Solutions Pvt. Ltd. is a innovative and quality product development and management concern which caters to both existing
+ product or formulation of an entirely new product that satisfies a newly defined customer want or market niche.
+ Our primary focus is to help our clients launch innovative products and solutions with reduced time to market as well as
+ reduced cost of development. Companies partner with us for our development facilities, wide-ranging design and development expertise,
+ and comprehensive quality management process. We provides each client with a timely and cost effective solution. In addition to our own 
+ intellectual property, we provide a full range of engineering capabilities necessary for complete product development life cycle.
+ From idea to market, S-CUBE integrates creativity, commercial know-how and technical penetration to help you craft business success. 
+Innovation and customer satisfaction is our hallmark. We have the ability to create winning commercial solutions by generating new
+ ideas and different ways of doing things. As a design firm all our clients are equally important, large or small, fortune 500 or startup.
+ 
+</p><br>
+	<br> </div>
+</div>
+   <div class="col-sm-1">
+  </div>
+	</div>
+  <div class = "row text-center slideanim" >
+      <div class="col-sm-1">
+  </div>
+     <div class="col-sm-10">
+  
+   <div class = "col-sm-3 ">
+     <div class="view view-first">  
+     <img src="/project/img/Desktop1.jpg" class="img-responsive " style="width: 100%;height:181px;"> 
+    <div class="mask" style="width: 100%;" >  
+        <h2>AFC Products</h2><br>  
+
+   <a href="\project\AFC Products.html" class="info">Read More</a>
+     </div> 
+         
+
+</div>
+	 </div>	 
+
+  
+    
+    <div class = "col-sm-3 ">
+     <div class="view view-first">  
+    <img src="/project/img/security1.jpg" style=" width: 100%; height:181px;" class="img-responsive "> 
+	
+       <div class="mask"  style="width: 100%;">  
+     <h2>Security</h2>  <br>
+
+         <a href="\project\Security.html" class="info">Read More</a>  
+     </div>  
+</div>  
+   </div>
+   <div class = "col-sm-3 ">
+     <div class="view view-first">  
+    <img src="/project/img/Desktop.jpg" style=" width: 100%;height:181px;" class="img-responsive ">
+       <div class="mask"  style="width: 100%;">   
+     <h2>Access Automation</h2>  <br>
+  
+         <a href="\project\Access Automation.html" class="info">Read More</a>  
+     </div>  
+</div>  
+   </div>
+   
+   
+ 
+   
+    <div class = "col-sm-3 ">
+     <div class="view view-first">  
+     <img src="/project/img/epro.jpg" class="img-responsive " style="width: 100%;     height: 182px;">  
+       <div class="mask"  style="width: 100%;">   
+     <h2>Embedded Products</h2>  <br>
+ 
+         <a href="\project\embedded products.html" class="info">Read More</a>  
+     </div>  
+</div>  
+   </div>
+   </div>
+      <div class="col-sm-1">
+  </div>
+   
+    </div>
+  
+   <br>  
+   <br>  
+</div>
+
+<!-- end of products -->
+
+
+<div class="parallax" id="middle">
+
+
+
+<!--about company nd mission-->
+
+
+
+
+  <div class="container-fluid" id ="about">
+  <br>
+  
+  <div class="row">
+  
+   <div class="col-sm-1 ">
+	</div>  
+	
+  <div class="col-sm-10 ">
+  <br><br><br>
+  <ul class="timeline">
+  
+  <li class="tline-item-left wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+			
+      <div class="timeline-badge"><i class="fa fa-user"  aria-hidden="true" id ="font"></i></div>
+      <div class="timeline-panel">
+        
+        <div class="timeline-body slideanim">
+	      <div class="header text-justify" ><h2>ABOUT US</h2>
+       <p>S-CUBE comprises of strong and highly interdisciplinary engagement team capable of handling different aspects of projects involving research and development of high end quality products and solutions.
+
+Networks around the world are expanding and connecting diverse devices enabling total information solutions. Increasingly, factory equipment and process controllers are being linked to information systems for seamless transfer of production data to business applications.
+<br>
+We offer consulting and development in Telecom, Embedded, Automation. Our expertise spans across building wide range of
+ Real Time systems, porting or adapting RTOS to suit embedded application, open source development and customizing, writing
+ Device drivers, developing middleware applications.
+
+</p>
+		</div>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted ">
+      <div class="timeline-badge warning"><i class="fa fa-eye"  aria-hidden="true"  id ="font"></i></div>
+  <div class="timeline-panel">
+        
+        <div class="timeline-body slideanim text-justify">
+            <h2>VISION</h2>
+  
+  <p>Providing cutting edge advances in technology through innovative thinking and revolutionary new ideas with a focus on:
+  <ul class="fa-ul" style="color:white"  >
+      <li><i class="fa-li fa fa-square"></i>Successfully commercializing revolutionary ideas and products.</li>
+      <li><i class="fa-li fa fa-square"></i> Building a customer oriented organization.</li>
+      <li><i class="fa-li fa fa-square"></i> Creating customized solutions.</li>
+      <li><i class="fa-li fa fa-square"></i>Nurturing innovative, revolutionary and committed people.</li>
+	  
+	  </ul>
+	</p>
+        </div>
+      </div>
+     
+    </li>
+    <li>
+      <div class="timeline-badge danger"><i class="fa fa-circle-o-notch" aria-hidden="true"  id ="font"></i></div>
+    <div class="timeline-panel">
+       
+        <div class="timeline-body slideanim">
+          <div class="header text-justify" style="color:white"  >
+      <h2>MISSION</h2>
+<p>
+	  <blockquote><i class="fa fa-quote-left fa-2x" aria-hidden="true" ></i>      To become a leading global provider of innovative software solutions by cultivating the interests of the customer  
+<i class="fa fa-quote-right fa-2x" aria-hidden="true"  ></i></blockquote>
+	
+</p>
+
+     </div>
+		  
+        </div>
+    </li>
+  
+   
+            </ul>
+
+
+    
+  </div>
+  
+  
+	
+	
+	
+	</div>
+	 <div class="col-sm-1 ">
+	</div> 
+
+	</div>
+  
+	
+
+</div>
+
+</div>
+
+
+<!-- end of about -->
+
+	 
+	  <!-- satrt of Technology and R&D -->
+	  
+	  
+	   <div class="overlay">
+	 <div class="container-fluid"id="research">
+	 <br>
+	 <div class="row ">
+	 <div class="col-sm-1">
+	 </div>
+	  <div class="col-sm-10" style="    margin-top: 45px;">
+	 <div class="overflow" style="height: 355px;">
+  <section class="panels">
+    <article class="panels__side panels__side--left">
+      <div class="panels__side panels__side--inner-left">
+        <p>TEXT</p>
+		<a href="\project\technology.html" <button="" type="button" class="btn btn-primary btn-md" style="margin-top: -135px;  margin-left: -79px;">Read more </a>
+      </div>
+      <div class="panels__side panels__side--inner">
+        <h1 class="panels__headline"style="color:white" >Technology</h1>      
+        <svg class="arrow arrow--left"  width="40" height="40" viewBox="0 0 24 24"><path d="M0 0h24v24h-24z" fill="none"></path><path d="M20 11h-12.17l5.59-5.59-1.42-1.41-8 8 8 8 1.41-1.41-5.58-5.59h12.17v-2z"></path></svg>
+      </div>
+    </article>
+    <article class="panels__side panels__side--right">
+      <div class="panels__side panels__side--inner" >
+        <h1 class="panels__headline"style="color:white">Research &amp; Development</h1>
+        <svg class="arrow arrow--right" width="40" height="40" viewBox="0 0 24 24"><path d="M0 0h24v24h-24z" fill="none"></path><path d="M12 4l-1.41 1.41 5.58 5.59h-12.17v2h12.17l-5.58 5.59 1.41 1.41 8-8z"></path></svg>
+      </div>
+      <div class="panels__side panels__side--inner-right">
+        <p>TEXT</p>					
+		<a href="\project\R&D.html" <button="" type="button" class="btn btn-primary btn-md" style="margin-top: -135px;margin-left: -79px;">Read more </a>
+		
+	 </div>
+	 </div>
+	 </div>
+	  <div class="col-sm-1">
+	 </div>
+	 </div>
+	 <br>
+	 </div>
+	 
+</div>
+	 <!-- end technology and r&d -->
+	 
+	 
+	 
+	 <!-- footer -->
+	 
+ <footer>
+ 
+
+	  <div class ="container-fluid text-center" style="background-color:black" id="footer">
+			
+			
+			
+			<br>
+			
+			  <div class="col-md-12">
+             <ul class="social-network social-circle">
+                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="https://www.facebook.com/SatyamSoftwareSolutions" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+<!--                     <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li> -->
+                
+                    <li><a href="https://www.linkedin.com/company/s-cube-satyam-software-solutions-pvt.-ltd." class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+				<hr>
+            </div>
+			
+      
+      
+   
+  
+  
+			
+
+			<div class="col-sm-6 text-left">
+			
+			<p> &copy; Copyright @2001 - 2016 Satyam Software Solutions Pvt.Ltd<br>
+			     Phone: +91-120-4233834/35; A/189 ,Sector-63, Noida - 201301, Uttar Pradesh,INDIA.</p>
+		
+			</div>
+			<div class="col-sm-6 text-right">
+			<a href="/project/privacy.html">Privacy Statement </a>|
+			<a href="/project/terms_of_use.html">Terms of Use</a> |
+			<a href="/project/pt.html">Partners</a>
+			
+			</div>
+		
+
+  
+
+	
+            </div><!-- end container-->
+			
+	  </footer>
+	  <!-- end of footer -->
+	  
+
+	  
+	  
+	  <!-- script for slide in function -->
+
+<script>
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+
+</script>
+	 <script>
+	 // Trigger class name on load
+window.onload = function() {
+  document.body.className += ' loaded'
+};
+	 
+	 </script>
+	 
+	 
+	 
+	 
+	 <!-- Script of Technology -->
+<script>
+ 
+ 
+var Panels = (function() {
+  
+  var panelLeft = document.querySelector('.panels__side--left');
+  var panelRight = document.querySelector('.panels__side--right');
+
+  var openLeft = function() {
+		panelLeft.classList.toggle('panels__side--left-active');
+    panelRight.classList.toggle('panels__side--right-hidden');
+  };
+
+  var openRight = function() {
+    panelRight.classList.toggle('panels__side--right-active');
+    panelLeft.classList.toggle('panels__side--left-hidden');
+  };
+  
+  var bindActions = function() {
+    panelLeft.addEventListener('click', openLeft, false);
+    panelRight.addEventListener('click', openRight, false);
+  };
+  
+  var init = function() {
+    bindActions();
+  };
+  
+  return {
+    init: init
+  };
+ 
+}());
+
+Panels.init();
+
+
+</script>
+
+
+
+
+
+
+
+ <script>
+
+
+
+jQuery(function(){
+
+  $(window).load(function(){
+  
+  $('.wrapper').removeClass('preload');
+  
+  });
+
+});
+   </script>
+   
+
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  </body>
+  </html>
